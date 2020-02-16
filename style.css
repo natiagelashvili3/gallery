@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	background: #2c3e50;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+.container{
+	margin-top: 50px;
+	text-align: center;
+}
+.item{
+	display: inline-block;
+	margin-right: 150px;
+}
+#gallery-main{
+	width: 500px;
+	margin: 0 auto;
+}
+#gallery-main img{
+	width: 100%;
+}
+.gallery{
+	display: flex;
+	justify-content: center;
+}
+.gallery-item{
+	width: 150px;
+	height: 80px;
+	overflow: hidden;
+	display: inline-block;
+}
+.gallery-item img{
+	width: 100%;
+}
